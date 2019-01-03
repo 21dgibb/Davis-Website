@@ -1,0 +1,120 @@
+
+@keyframes slider {
+ 0% {
+	left: 0;
+}
+ 5% {
+	left: 0;
+}
+ 10% {
+	left: -100%;
+}
+ 45% {
+    left: -100%;
+      z-index: -20;
+ }
+ 50% {
+		left: -100%;
+ }
+ 70% {
+	left: -100%;
+}
+ 75% {
+	left: -100%;
+}
+ 95% {
+	left: -100%;
+}
+ 99% {
+	left: -100%;
+ }
+ 100% {
+ z-index: -20
+ }
+ }
+ #slider {
+	overflow: hidden;
+}
+ #slider figure img {
+	width: 20%;
+	float: left;
+}
+ #slider figure {
+	position: fixed;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider 1;
+ }
+@font-face {
+  font-family: 'Unlock', cursive;
+ }
+}
+ body {
+   background-color: lightblue;
+ }
+
+ h1 {
+   color: coral;
+   text-align: center;
+   text-shadow: 5px 3px DarkMagenta;
+  font-family: 'Unlock', cursive;
+  font-size:500%;
+ }
+ h2 {
+   color: coral;
+   text-align: center;
+   text-shadow: 6px 4px DarkMagenta;
+  font-family: 'Unlock', cursive;
+  font-size: 800%;
+ }
+
+ h3 {
+   color: thistle;
+   text-align: center;
+  font-family: 'Unlock', cursive;
+  text-shadow: 6px 4px indigo;
+  font-size: 200%;
+ }
+ 
+ /*Button Style*/
+ .button {
+   align: center;
+   background-color: DarkMagenta;
+   border-radius: 8px;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 24px;
+ }
+
+   .button:hover {
+  background-color: indigo;
+}
+/* unvisited link */
+a:link {
+  color: lavender;
+}
+
+/* visited link */
+a:visited {
+  color: deeppink;
+}
+
+/* mouse over link */
+a:hover {
+  color: pink;
+}
+
+/* selected link */
+a:active {
+  color: gold;
+}
+
+ }
+
+}
